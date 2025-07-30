@@ -13,7 +13,8 @@ describe('carrinho', () =>{
       
       //act
       cy.get('[data-test="add-to-cart-sauce-labs-backpack"]').click()
-
+     
+    
       // assert
         cy.get('.shopping_cart_badge')
             .should('be.visible')
@@ -22,6 +23,12 @@ describe('carrinho', () =>{
         cy.get('#shopping_cart_container').click()
 
         cy.contains('Sauce Labs Backpack').should('be.visible')
+
+        cy.get('[data-test="continue-shopping"]').click()
+
+
+         
+        
     })
 
 })
