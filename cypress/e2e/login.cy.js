@@ -18,8 +18,8 @@ describe('login',() => {
     })
       it('realizar login informando credenciais inválidas',() => {
 
-    // arrange
-      cy.visit('https://saucedemo.com/')  
+   
+    cy.visit('https://saucedemo.com/')  
 
 
     // act
