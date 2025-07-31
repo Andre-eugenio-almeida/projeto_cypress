@@ -13,7 +13,6 @@ describe('carrinho', () =>{
       
       //act
       cy.get('[data-test="add-to-cart-sauce-labs-backpack"]').click()
-     
     
       // assert
         cy.get('.shopping_cart_badge')
@@ -26,7 +25,7 @@ describe('carrinho', () =>{
 
         cy.get('[data-test="continue-shopping"]').click()
 
-
+        
          
         
     })
