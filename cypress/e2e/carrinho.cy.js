@@ -1,4 +1,4 @@
-describe('Adicionar e remover itens no carrinho - SauceDemo', () => {
+describe('Adicionar e remover itens no carrinho', () => {
   it('Deve adicionar dois produtos e depois removê-los', () => {
     // Acessa o site
     cy.visit('https://www.saucedemo.com');
